@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="JourneyHome:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/JourneyHome_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/artifacts/JourneyHome_war_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="JourneyHome/web/Web" />
       <element id="directory" name="WEB-INF">
@@ -9,6 +9,7 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="AppEngine API" />
+          <element id="library" level="project" name="Spring-4.2.3.RELEASE" />
         </element>
       </element>
     </root>
